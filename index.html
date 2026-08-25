@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cozyze — Coming Soon</title>
+<meta name="description" content="Cozyze is coming soon. Sign up to be the first to know when we drop." />
+
+<!-- Social preview -->
+<meta property="og:title" content="Cozyze — Coming Soon" />
+<meta property="og:description" content="Something new is coming. Be the first to know." />
+<meta property="og:image" content="assets/logo.png" />
+<meta property="og:type" content="website" />
+
+<link rel="icon" href="assets/logo.png" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="noise"></div>
+
+<main class="wrap">
+  <img class="logo" src="assets/logo.png" alt="Cozyze logo" />
+
+  <h1 class="brand">COZYZE</h1>
+  <p class="tagline">Something new is coming.</p>
+
+  <form class="signup" id="signup-form" action="#" method="POST">
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Enter your email"
+      required
+      autocomplete="email"
+    />
+    <button type="submit">Notify Me</button>
+  </form>
+  <p class="signup-note" id="signup-note">Be the first to know when we drop.</p>
+
+  <div class="socials">
+    <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" aria-label="TikTok" target="_blank" rel="noopener">TikTok</a>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Cozyze. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
