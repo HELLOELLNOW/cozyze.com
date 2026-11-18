@@ -26,7 +26,6 @@ body {
   overflow-x: hidden;
 }
 
-/* subtle grain so the flat black isn't dead flat */
 .noise {
   position: fixed;
   inset: 0;
@@ -37,7 +36,6 @@ body {
   z-index: 0;
 }
 
-/* thin inset frame around the whole viewport for an editorial, boutique feel */
 .frame {
   position: fixed;
   inset: 14px;
@@ -46,7 +44,6 @@ body {
   z-index: 2;
 }
 
-/* persistent top bar — the logo stays visible on screen at all times */
 .nav {
   position: fixed;
   top: 0;
@@ -110,6 +107,13 @@ body {
   letter-spacing: 0.01em;
   margin: 0 0 14px;
   line-height: 0.95;
+}
+
+.brand sup,
+.nav-word sup {
+  font-size: 0.3em;
+  vertical-align: super;
+  margin-left: 2px;
 }
 
 .tagline {
